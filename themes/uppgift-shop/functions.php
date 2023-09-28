@@ -1,20 +1,22 @@
 <?php
-/**
- * We use WordPress's init hook to make sure
- * our blocks are registered early in the loading
- * process.
- *
- * @link https://developer.wordpress.org/reference/hooks/init/
- */
-function tt3child_register_acf_blocks()
+add_action('acf/init', 'my_acf_init');
+function my_acf_init()
 {
-    /**
-     * We register our block's with WordPress's handy
-     * register_block_type();
-     *
-     * @link https://developer.wordpress.org/reference/functions/register_block_type/
-     */
-    register_block_type(__DIR__ . '/blocks/testimonial');
+
+    // check function exists
+    if (function_exists('acf_register_block')) {
+
+        // register a testimonial block
+        acf_register_block(
+            array(
+                'name' => 'testimonial',
+                'title' => __('Testimonial'),
+                'description' => __('A custom testimonial block.'),
+                'render_callback' => 'my_acf_block_render_callback',
+                'category' => 'formatting',
+                'icon' => 'admin-comments',
+                'keywords' => array('testimonial', 'quote'),
+            )
+        );
+    }
 }
-// Here we call our tt3child_register_acf_block() function on init.
-add_action('init', 'tt3child_register_acf_blocks');

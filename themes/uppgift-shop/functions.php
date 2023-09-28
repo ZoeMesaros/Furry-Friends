@@ -1,14 +1,16 @@
 <?php
 
+//Register JS
+wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), 1.1, true);
 
+//Register Menus
 function register_menus()
 {
     register_nav_menus(
 
         array(
-            'nav-menu' => 'Header Menu Location',
+            'top-menu' => 'Header Menu Location',
             'footer-menu' => 'Footer Menu Location'
-
         )
     );
 }
@@ -16,6 +18,7 @@ add_action('init', 'register_menus');
 
 
 
+//Register options pages
 if (function_exists('acf_add_options_page')) {
 
     acf_add_options_page(
@@ -49,10 +52,7 @@ if (function_exists('acf_add_options_page')) {
 
 
 
-
-
-
-
+//Register blocks
 
 add_action('acf/init', 'my_acf_init');
 function my_acf_init()

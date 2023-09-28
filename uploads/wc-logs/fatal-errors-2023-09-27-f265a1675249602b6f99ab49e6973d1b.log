@@ -1,0 +1,127 @@
+2023-09-27T17:15:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+
+2023-09-27T17:15:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+
+2023-09-27T17:15:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+
+2023-09-27T17:15:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+
+2023-09-27T17:15:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+
+2023-09-27T17:15:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+
+2023-09-27T17:15:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+
+2023-09-27T17:16:30+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_acf_init_block_types" not found or invalid function name in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-content\plugins\advanced-custom-fields-pro-edu\acf.php(337): do_action('acf/init')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(310): ACF->init('')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-settings.php(632): do_action('init')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\class-wp-hook.php på rad 310
+

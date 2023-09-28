@@ -1,0 +1,11 @@
+.navbar-img {
+  width: 15%;
+  margin-left: 4%;
+}
+
+.menu-navigeringsmeny-container {
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

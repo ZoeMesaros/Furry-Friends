@@ -5,7 +5,7 @@ $linkTitle = get_field('my_page_title');
 
 <div class="px-0.5">
     <div class="p-5 text-center bg-image rounded-3" id="heroimg" style="
-    background-image: url('http://localhost/furryfriends/wordpress/wp-content/uploads/2023/10/hero4.png');
+    background-image: url('http://localhost/furryfriends/wordpress/wp-content/uploads/2023/10/banner-slimmer.png');
     center center no-repeat;
   ">
     </div>

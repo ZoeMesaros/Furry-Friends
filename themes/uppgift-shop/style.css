@@ -9,3 +9,5 @@ Title: Furry Friends
 /* General styles
 ------------------------------------------------------------------ */
 @import url("./css/main.css");
+@import url("./css/bootstrap.css");
+@import url("./css/font-awesome.css");

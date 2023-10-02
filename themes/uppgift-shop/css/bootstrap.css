@@ -1,0 +1,50 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    flex-direction: row;
+  }
+  .menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #navbar-login {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.menu li {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.menu li a {
+  all: unset;
+}
+
+.menu li a:hover {
+  cursor: pointer;
+}
+
+#navbar-login a {
+  all: unset;
+}
+
+#navbar-login a:hover {
+  cursor: pointer;
+}

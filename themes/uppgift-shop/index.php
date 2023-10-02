@@ -1,5 +1,3 @@
-<?php
-get_header();
-get_footer();
-
-?>
+<?php get_header(); ?>
+innehåll
+<?php get_footer(); ?>

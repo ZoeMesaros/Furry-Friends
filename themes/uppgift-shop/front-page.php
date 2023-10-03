@@ -1,16 +1,14 @@
 <?php
 $pageTitle = get_field('page_title');
 $description = get_field('description');
-$gallery = get_field('gallery')
+$heroImage = get_field('hero_image')
     ?>
 
 <?php get_header(); ?>
 
-<section>
-    <div class="container">
-        <h1>
-            <?php the_title(); ?>
-        </h1>
+
+<div id="hero" style="background-image: url('<?php echo esc_url($heroImage); ?>'); height: 550px; width: 100%; ">
+    <div class="container d-flex align-items-center justify-content-center h-250">
         <?php if ($pageTitle): ?>
             <h2>
                 <?php echo $pageTitle; ?>
@@ -19,14 +17,9 @@ $gallery = get_field('gallery')
         <?php if ($description): ?>
             <?php echo $description; ?>
         <?php endif; ?>
-
-        <?php if ($gallery): ?>
-            <?php foreach ($gallery as $img): ?>
-                <img src="<?php echo $img['sizes']['thumbnail']; ?>">
-            <?php endforeach; ?>
-        <?php endif; ?>
     </div>
-</section>
+</div>
+
 <section>
     <div class="content">
         <?php if (have_posts()):

@@ -13,5 +13,5 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class('test'); ?>>
+<body>
     <?php get_template_part('includes/section', 'navbar'); ?>

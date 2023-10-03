@@ -8,25 +8,8 @@ function mytheme_add_woocommerce_support()
 add_action('after_setup_theme', 'mytheme_add_woocommerce_support');
 
 
-//Register styles
-function load_stylesheets()
-{
-    wp_register_style('stylesheet', get_template_directory_uri() . '/css/style.css', array(), 1, 'all');
-    wp_enqueue_style('stylesheet');
-    wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array(), 1, 'all');
-    wp_enqueue_style('bootstrap');
-    wp_register_style('font-awesome', get_template_directory_uri() . '/css/font-awesome.css', array(), 1, 'all');
-    wp_enqueue_style('font-awesome');
-}
-add_action('wp_enqueue_scripts', 'load_stylesheets');
-
 //Register JS
-function load_javascript()
-{
-    wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), 1.1, true);
-    wp_enqueue_script('script');
-}
-add_action('wp_enqueue_scripts', 'load_javascript');
+wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), 1.1, true);
 
 //Register Menus
 function register_menus()
@@ -55,22 +38,12 @@ function my_wp_nav_menu_items($items, $args)
     if ($args->theme_location == 'top-menu') {
 
         // vars
-        $hero = get_field('hero_img', $menu);
         $logo = get_field('logo', $menu);
         $pageLink = get_field('my_page_link', $menu);
         $linkTitle = get_field('my_page_title', $menu);
 
         // prepend logo
-        $html_hero = '<div style="width: 100%">
-        <div class="p-5 text-center bg-image rounded-3" id="heroimg" style="
-        background-image: url(' . $hero . ');
-        center center no-repeat
-      ">
-        </div>';
-
-
-
-        $html_logo = '<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        $html_logo = '<div style="width: 100%"> <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a href="#" class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" height="90" alt="CoolBrand">             </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -104,7 +77,7 @@ function my_wp_nav_menu_items($items, $args)
 </div>';
 
         // append html
-        $items = $html_hero . $html_logo . $items . $html_pageLink . $html_linkTitle;
+        $items = $html_logo . $items . $html_pageLink . $html_linkTitle;
 
     }
 

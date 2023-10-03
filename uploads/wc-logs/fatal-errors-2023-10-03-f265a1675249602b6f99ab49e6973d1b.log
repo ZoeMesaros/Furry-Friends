@@ -1,0 +1,1024 @@
+2023-10-03T06:39:16+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:39:19+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:42:09+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:44:25+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:44:27+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:44:33+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:45:01+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:45
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 45
+
+2023-10-03T06:46:35+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:46:36+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:47
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 47
+
+2023-10-03T06:49:44+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:49:45+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:50:08+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:50:09+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:54:05+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:54:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:54:59+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:55:05+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:55:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:56:16+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:57:43+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:57:45+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:57:51+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:58:01+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:58:08+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:58:10+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:58:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:58:48+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:59:46+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T06:59:48+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:48
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 48
+
+2023-10-03T07:01:50+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:01:52+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:02:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:02:28+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:05:15+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:05:17+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:11:27+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:13:54+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:16:00+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:45
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 45
+
+2023-10-03T07:16:01+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:45
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 45
+
+2023-10-03T07:16:19+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:16:20+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:18:38+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:18:41+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:49
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 49
+
+2023-10-03T07:23:08+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:42
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 42
+
+2023-10-03T07:23:11+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:42
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 42
+
+2023-10-03T07:23:28+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:46
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 46
+
+2023-10-03T07:28:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:46
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 46
+
+2023-10-03T07:29:05+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:43
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 43
+
+2023-10-03T07:29:26+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:45
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 45
+
+2023-10-03T07:29:33+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:43
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 43
+
+2023-10-03T07:30:35+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:43
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 43
+
+2023-10-03T07:30:36+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:43
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 43
+
+2023-10-03T07:31:58+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:43
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 43
+
+2023-10-03T07:32:06+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:43
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 43
+
+2023-10-03T07:32:15+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:43
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 43
+
+2023-10-03T07:35:06+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:40:31+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:40:48+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:40:52+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:41:10+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:41:12+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:41:16+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:43:01+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+
+2023-10-03T07:43:10+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php:27
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php(17): get_template_part('includes/sectio...', 'navbar')
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(2): get_header()
+#8 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
+

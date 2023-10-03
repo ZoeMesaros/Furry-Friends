@@ -17,6 +17,79 @@ function register_menus()
 add_action('init', 'register_menus');
 
 
+add_filter('wp_nav_menu_items', 'my_wp_nav_menu_items', 10, 2);
+
+function my_wp_nav_menu_items($items, $args)
+{
+
+    // get menu
+    $menu = wp_get_nav_menu_object($args->menu);
+
+
+    // modify primary only
+    if ($args->theme_location == 'top-menu') {
+
+        // vars
+        $hero = get_field('hero_img', $menu);
+        $logo = get_field('logo', $menu);
+        $pageLink = get_field('my_page_link', $menu);
+        $linkTitle = get_field('my_page_title', $menu);
+
+        // prepend logo
+        $html_hero = '<div style="width: 100%">
+        <div class="p-5 text-center bg-image rounded-3" id="heroimg" style="
+        background-image: url(' . $hero . ');
+        center center no-repeat
+      ">
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">';
+
+
+        $html_logo = '<img class="navbar-img" src="' . $logo . '" height="90" alt="CoolBrand">             </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">';
+
+        $html_pageLink = '<div class="container-fluid">
+        <form id="searchbar" class="d-flex input-group w-auto">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Sök...">
+                <button type="button" class="btn btn-secondary">
+                    <i class="fa fa-search"></i></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    <div id="navbar-login" class="navbar-nav ms-auto">
+        <a href="' . $pageLink . '
+    " class="nav-item nav-link">';
+
+        $html_linkTitle = '
+' . $linkTitle . '
+</a>
+</div>
+</div>
+
+</div>
+</nav>
+</div>';
+
+        // append html
+        $items = $html_hero . $html_logo . $items . $html_pageLink . $html_linkTitle;
+
+    }
+
+
+    // return
+    return $items;
+
+}
+
+
 
 //Register options pages
 if (function_exists('acf_add_options_page')) {

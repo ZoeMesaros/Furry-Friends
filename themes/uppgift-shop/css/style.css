@@ -1,0 +1,33 @@
+/**
+Theme Name: Gruppuppgift Woocommerce
+Author: Zoë Mesaros & Natasa Iconomou
+Version: 1.0
+Description: Theme for a pet store
+Title: Furry Friends
+*/
+
+body {
+  background-color: rgb(32, 194, 206);
+  margin: 0;
+  padding: 0;
+}
+
+#heroimg {
+  min-height: 10vh;
+  background-size: cover;
+  position: relative;
+}
+#heroimg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width: 992px) {
+  #heroimg {
+    min-height: 35vh;
+  }
+}

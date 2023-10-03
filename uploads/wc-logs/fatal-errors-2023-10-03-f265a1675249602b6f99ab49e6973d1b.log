@@ -1022,3 +1022,19 @@ Stack trace:
 #11 {main}
   thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\includes\section-navbar.php på rad 27
 
+2023-10-03T08:43:30+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_homepage_content_styles() in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php:14
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php på rad 14
+
+2023-10-03T08:43:33+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_homepage_content_styles() in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php:14
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php på rad 14
+

@@ -25,6 +25,10 @@
   }
 }
 
+.menu-navigeringsmeny-container {
+  width: 100%;
+}
+
 .menu li {
   display: block;
   padding: 0.5rem 1rem;

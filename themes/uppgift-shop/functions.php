@@ -1,7 +1,5 @@
 <?php
 
-//Disable woocommerce stylesheet
-/* add_filter('woocommerce_enqueue_styles', '__return_empty_array'); */
 
 //Declare Woocommerce support
 function mytheme_add_woocommerce_support()
@@ -9,6 +7,46 @@ function mytheme_add_woocommerce_support()
     add_theme_support('woocommerce');
 }
 add_action('after_setup_theme', 'mytheme_add_woocommerce_support');
+
+
+
+//Woocommerce hooks for main content
+remove_action('woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action('woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+
+add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
+add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
+
+function my_theme_wrapper_start()
+{
+    echo '<section>
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">';
+}
+
+function my_theme_wrapper_end()
+{
+    echo '</div>
+    </div>
+</div>
+</div>
+</section>';
+}
+
+
+//Woocommerce override stylesheet
+function wp_enqueue_woocommerce_style()
+{
+    wp_register_style('mytheme-woocommerce', get_template_directory_uri() . '/css/woocommerce.css');
+
+    if (class_exists('woocommerce')) {
+        wp_enqueue_style('mytheme-woocommerce');
+    }
+}
+add_action('wp_enqueue_scripts', 'wp_enqueue_woocommerce_style');
+
 
 
 //Register JS
@@ -28,6 +66,8 @@ function register_menus()
 add_action('init', 'register_menus');
 
 
+
+//Navigation menu layout
 add_filter('wp_nav_menu_items', 'my_wp_nav_menu_items', 10, 2);
 
 function my_wp_nav_menu_items($items, $args)
@@ -55,16 +95,7 @@ function my_wp_nav_menu_items($items, $args)
 
         <div class="collapse navbar-collapse" id="navbarCollapse">';
 
-        $html_pageLink = '<div class="container-fluid">
-        <form id="searchbar" class="d-flex input-group w-auto">
-            <div class="input-group">
-                <input type="text" class="form-control" placeholder="Sök...">
-                <button type="button" class="btn btn-secondary">
-                    <i class="fa fa-search"></i></i>
-                </button>
-            </div>
-        </form>
-    </div>
+        $html_pageLink = get_search_form() . '
     <div id="navbar-login" class="navbar-nav ms-auto">
         <a href="' . $pageLink . '
     " class="nav-item nav-link">';
@@ -92,60 +123,16 @@ function my_wp_nav_menu_items($items, $args)
 
 
 
-//Register options pages
-if (function_exists('acf_add_options_page')) {
-
-    acf_add_options_page(
-        array(
-            'page_title' => 'Theme General Settings',
-            'menu_title' => 'Temainställningar',
-            'menu_slug' => 'theme-general-settings',
-            'capability' => 'edit_posts',
-            'redirect' => false
-        )
-    );
-
-    acf_add_options_sub_page(
-        array(
-            'page_title' => 'Theme Header Settings',
-            'menu_title' => 'Header',
-            'parent_slug' => 'theme-general-settings',
-        )
-    );
-
-    acf_add_options_sub_page(
-        array(
-            'page_title' => 'Theme Footer Settings',
-            'menu_title' => 'Footer',
-            'parent_slug' => 'theme-general-settings',
-        )
-    );
-
-}
 
 
+add_action('woocommerce_before_shop_loop_item_title', 'quadlayers_new_product_badge', 3);
 
-
-//Register blocks
-
-add_action('acf/init', 'my_acf_init');
-function my_acf_init()
+function quadlayers_new_product_badge()
 {
-
-    // check function exists
-    if (function_exists('acf_register_block')) {
-
-        // register a testimonial block
-        acf_register_block(
-            array(
-                'name' => 'testimonial',
-                'title' => __('Testimonial'),
-                'description' => __('A custom testimonial block.'),
-                'render_callback' => 'my_acf_block_render_callback',
-                'category' => 'formatting',
-                'icon' => 'admin-comments',
-                'keywords' => array('testimonial', 'quote'),
-            )
-        );
+    global $product;
+    $newness_days = 10;
+    $created = strtotime($product->get_date_created());
+    if ((time() - (60 * 60 * 24 * $newness_days)) < $created) {
+        echo '<span class="itsnew onsale">' . esc_html__('New!', 'woocommerce') . '</span>';
     }
 }

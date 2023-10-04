@@ -308,3 +308,7 @@ CSS.mb-6 {
 .hcf-transform:hover {
   transform: scale3d(1.02, 1.02, 1.02);
 }
+
+.navbar-img {
+  height: 90px !important;
+}

@@ -13,7 +13,7 @@ $heroImage = get_field('hero_image')
     <?php endif; ?>
     <div class="container">
         <div class="row justify-content-md-left">
-            <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-left text-white">
+            <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6 text-center text-white">
                 <?php if ($pageTitle): ?>
                     <h3 class="display-5 mb-3 me-5">
                         <?php echo $pageTitle ?>

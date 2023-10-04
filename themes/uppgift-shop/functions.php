@@ -1,5 +1,8 @@
 <?php
 
+//Disable woocommerce stylesheet
+/* add_filter('woocommerce_enqueue_styles', '__return_empty_array'); */
+
 //Declare Woocommerce support
 function mytheme_add_woocommerce_support()
 {
@@ -45,7 +48,7 @@ function my_wp_nav_menu_items($items, $args)
         // prepend logo
         $html_logo = '<div style="width: 100%"> <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" height="90px" alt="CoolBrand">             </a>
+            <a href="#" class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" alt="Furry Friends Logo">             </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>

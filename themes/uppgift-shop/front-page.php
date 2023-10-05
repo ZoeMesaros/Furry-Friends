@@ -24,17 +24,27 @@ $lProducts = get_field('latest_products')
         </div>
     </div>
 </section>
-<?php if ($description): ?>
-    <p class="lead mb-5">
-        <?php echo $description ?>
-    </p>
-<?php endif; ?>
-<?php if ($lProducts): ?>
-    <h2>
-        <?php echo $lProducts ?>
-    </h2>
-<?php endif; ?>
-<?php echo do_shortcode("[products limit='4' columns='4' orderby='id' order='DESC' visibility='visible']"); ?>
+<section>
+    <div class="content">
+        <div class="container">
+            <div class="col-20 mt-5">
+                <?php if ($description): ?>
+                    <p class="lead mb-5">
+                        <?php echo $description ?>
+                    </p>
+                <?php endif; ?>
+                <?php if ($lProducts): ?>
+                    <h2 class="mb-4">
+                        <?php echo $lProducts ?>
+                    </h2>
+                <?php endif; ?>
+                <?php echo do_shortcode("[products limit='5' columns='5' orderby='id' order='DESC' visibility='visible']"); ?>
+
+                <?php echo do_shortcode("[woocommerce_product_search visibility='visible']"); ?>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php get_footer(); ?>

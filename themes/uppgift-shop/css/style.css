@@ -1,8 +1,14 @@
 body {
   background-color: rgb(32, 194, 206);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
-  position: relative;
+}
+
+.menu-footermeny-container {
+  margin-top: auto;
 }
 
 .navbar-img {

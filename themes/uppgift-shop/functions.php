@@ -1,6 +1,6 @@
 <?php
 
-
+add_theme_support('widgets');
 //Declare Woocommerce support
 function mytheme_add_woocommerce_support()
 {
@@ -53,6 +53,7 @@ add_action('wp_enqueue_scripts', 'wp_enqueue_woocommerce_style');
 wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), 1.1, true);
 
 //Register Menus
+add_theme_support('menus');
 function register_menus()
 {
     register_nav_menus(
@@ -88,12 +89,13 @@ function my_wp_nav_menu_items($items, $args)
         // prepend logo
         $html_logo = '<div style="width: 100%"> <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" alt="Furry Friends Logo">             </a>
+            <a href="/" class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" alt="Furry Friends Logo">             </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">';
+
 
         $html_pageLink = get_search_form() . '
     <div id="navbar-login" class="navbar-nav ms-auto">
@@ -120,3 +122,32 @@ function my_wp_nav_menu_items($items, $args)
     return $items;
 
 }
+
+
+
+
+function my_sidebars()
+{
+    register_sidebar(
+        array(
+            'name' => __('Primary Sidebar'),
+            'id' => 'sidebar-1',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Secondary Sidebar'),
+            'id' => 'sidebar-2',
+            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'after_widget' => '</aside>',
+            'before_title' => '<h3 class="widget-title">',
+            'after_title' => '</h3>',
+        )
+    );
+}
+add_action('widgets_init', 'my_sidebars');

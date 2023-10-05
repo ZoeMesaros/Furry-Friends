@@ -336,3 +336,7 @@ CSS.mb-6 {
 .navbar-img {
   height: 90px !important;
 }
+
+footer {
+  background-color: #b0e0e6;
+}

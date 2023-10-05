@@ -60,7 +60,6 @@ function register_menus()
 
         array(
             'top-menu' => 'Header Menu Location',
-            'footer-menu' => 'Footer Menu Location'
         )
     );
 }

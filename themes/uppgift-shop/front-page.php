@@ -39,12 +39,11 @@ $lProducts = get_field('latest_products')
                     </h2>
                 <?php endif; ?>
                 <?php echo do_shortcode("[products limit='5' columns='5' orderby='id' order='DESC' visibility='visible']"); ?>
-
-                <?php echo do_shortcode("[woocommerce_product_search visibility='visible']"); ?>
             </div>
         </div>
     </div>
 </section>
+
 
 
 <?php get_footer(); ?>

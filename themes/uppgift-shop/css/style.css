@@ -1,8 +1,6 @@
 body {
   background-color: rgb(32, 194, 206);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -13,4 +11,16 @@ body {
 
 .navbar-img {
   height: 90px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+#sidebar-1 {
+  height: 250px;
 }

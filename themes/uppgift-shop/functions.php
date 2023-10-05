@@ -20,7 +20,7 @@ add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 function my_theme_wrapper_start()
 {
     echo '<section>';
-    echo '<div id="sidebar" class="col-md-3 mt-5" role="complementary">';
+    echo '<div id="sidebar" class="col-md-4 mt-5" role="complementary">';
     get_sidebar('sidebar-1');
     echo '</div>';
     echo '<div class="content" id="content-products">

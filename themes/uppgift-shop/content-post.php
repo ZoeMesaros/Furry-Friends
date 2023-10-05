@@ -11,13 +11,17 @@ $postCategory = $args['postCategory'];
 <div class="container text-start">
     <?php if ($postCategory): ?>
         <div id="category-box" class="mb-3 mt-5">
-            <h4 id="category"><?php echo $postCategory ?></h4>
+            <h4 id="category">
+                <?php echo $postCategory ?>
+            </h4>
         </div>
     <?php endif; ?>
 
     <div class="card shadow mb-5 mt-3">
         <div class="card-body">
-            <h1 class="mb-5 d-grid gap-5"><?php echo get_the_title(); ?></h1>
+            <h1 class="mb-5 d-grid gap-5">
+                <?php echo get_the_title(); ?>
+            </h1>
 
             <section class="row justify-content-center align-items-center">
                 <?php if ($postImg): ?>
@@ -28,7 +32,9 @@ $postCategory = $args['postCategory'];
 
                 <div class="col-md-6">
                     <?php if ($postDescription): ?>
-                        <p class="description"><?php echo $postDescription ?></p>
+                        <p class="description">
+                            <?php echo $postDescription ?>
+                        </p>
                     <?php endif; ?>
 
                     <?php if ($postLink): ?>

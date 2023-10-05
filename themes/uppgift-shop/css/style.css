@@ -1,10 +1,26 @@
 body {
   background-color: rgb(32, 194, 206);
+  height: 100vh;
   margin: 0;
   padding: 0;
-  position: relative;
+}
+
+.menu-footermeny-container {
+  margin-top: auto;
 }
 
 .navbar-img {
   height: 90px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+}
+
+#sidebar-1 {
+  height: 250px;
 }

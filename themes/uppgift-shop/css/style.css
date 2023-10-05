@@ -13,10 +13,6 @@ body {
   height: 90px;
 }
 
-#sidebar-1 {
-  height: 250px;
-}
-
 ul {
   display: flex;
   justify-content: center;

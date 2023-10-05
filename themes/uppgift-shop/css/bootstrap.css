@@ -31,18 +31,19 @@ div#content-products {
 }
 
 #sidebar {
-  display: block;
+  position: absolute;
 }
 
 @media screen and (max-width: 700px) {
   #sidebar {
     display: none;
-    width: 30%;
+    width: auto;
     height: auto;
     position: relative;
   }
   #sidebar a {
     float: left;
+    height: auto;
   }
   div#content-products {
     margin-left: 0;

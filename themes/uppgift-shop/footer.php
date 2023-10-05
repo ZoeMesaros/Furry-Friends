@@ -8,9 +8,10 @@ $opening = get_field('opening')
     ?>
 
 
-<?php wp_footer(); ?>
+
 
 <footer>
+    <?php wp_footer(); ?>
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4">
@@ -77,8 +78,9 @@ $opening = get_field('opening')
     <?php if ($copyright): ?>
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             <?php echo $copyright ?>
-        <?php endif; ?>
-    </div>
+        </div>
+    <?php endif; ?>
+
 </footer>
 </body>
 

@@ -19,8 +19,11 @@ add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 
 function my_theme_wrapper_start()
 {
-    echo '<section>
-    <div class="content" id="content-products">
+    echo '<section>';
+    echo '<div id="sidebar" class="col-md-3 mt-5" role="complementary">';
+    get_sidebar('sidebar-1');
+    echo '</div>';
+    echo '<div class="content" id="content-products">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">';
@@ -88,7 +91,7 @@ function my_wp_nav_menu_items($items, $args)
         // prepend logo
         $html_logo = '<div style="width: 100%"> <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a href="/" class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" alt="Furry Friends Logo">             </a>
+            <a  class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" alt="Furry Friends Logo">             </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -96,7 +99,7 @@ function my_wp_nav_menu_items($items, $args)
         <div class="collapse navbar-collapse" id="navbarCollapse">';
 
 
-        $html_pageLink = get_search_form() . '
+        $html_pageLink = '
     <div id="navbar-login" class="navbar-nav ms-auto">
         <a href="' . $pageLink . '
     " class="nav-item nav-link">';
@@ -131,18 +134,7 @@ function my_sidebars()
         array(
             'name' => __('Primary Sidebar'),
             'id' => 'sidebar-1',
-            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-            'after_widget' => '</aside>',
-            'before_title' => '<h3 class="widget-title">',
-            'after_title' => '</h3>',
-        )
-    );
-
-    register_sidebar(
-        array(
-            'name' => __('Secondary Sidebar'),
-            'id' => 'sidebar-2',
-            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            'before_widget' => '<aside id="sidebar-filter" class="widget %2$s">',
             'after_widget' => '</aside>',
             'before_title' => '<h3 class="widget-title">',
             'after_title' => '</h3>',

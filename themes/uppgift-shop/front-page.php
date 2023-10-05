@@ -35,6 +35,7 @@ $lProducts = get_field('latest_products')
     </h2>
 <?php endif; ?>
 <?php echo do_shortcode("[products limit='4' columns='4' orderby='id' order='DESC' visibility='visible']"); ?>
+<h3 style="color:red; font-wight:300;">Rea Produkter!</h3>
 <?php echo do_shortcode("[products limit='4' columns='4' orderby='popularity' class='quick-sale' on_sale='true' ]"); ?>
 
 

@@ -115,8 +115,43 @@ function my_wp_nav_menu_items($items, $args)
 
     }
 
-
     // return
     return $items;
-
 }
+    // Skapa en anpassad posttyp för butiker
+function create_store_post_type() {
+    $labels = array(
+        'name'               => 'Butiker',
+        'singular_name'      => 'Butik',
+        'menu_name'          => 'Butiker',
+        'name_admin_bar'     => 'Butiker',
+        'add_new'            => 'Lägg till ny',
+        'add_new_item'       => 'Lägg till ny butik',
+        'new_item'           => 'Ny butik',
+        'edit_item'          => 'Redigera butik',
+        'view_item'          => 'Visa butik',
+        'all_items'          => 'Alla butiker',
+        'search_items'       => 'Sök bland butiker',
+        'not_found'          => 'Inga butiker hittades',
+        'not_found_in_trash' => 'Inga butiker hittades i papperskorgen',
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'publicly_queryable' => true,
+        'show_ui'            => true,
+        'show_in_menu'       => true,
+        'query_var'          => true,
+        'rewrite'            => array('slug' => 'butiker'),
+        'capability_type'    => 'post',
+        'has_archive'        => true,
+        'hierarchical'       => false,
+        'menu_position'      => null,
+        'supports'           => array('title', 'editor', 'thumbnail'),
+    );
+
+    register_post_type('store', $args);
+}
+
+add_action('init', 'create_store_post_type');

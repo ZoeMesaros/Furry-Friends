@@ -25,7 +25,7 @@
   }
 }
 
-div#products {
+div#content-products {
   margin-left: 250px;
   padding: 1px 16px;
 }
@@ -37,14 +37,14 @@ div#products {
 @media screen and (max-width: 700px) {
   #sidebar {
     display: none;
-    width: 100%;
+    width: 30%;
     height: auto;
     position: relative;
   }
   #sidebar a {
     float: left;
   }
-  div.content {
+  div#content-products {
     margin-left: 0;
   }
 }

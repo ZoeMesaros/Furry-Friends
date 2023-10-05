@@ -20,7 +20,7 @@ add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 function my_theme_wrapper_start()
 {
     echo '<section>
-    <div class="content">
+    <div class="content" id="content-products">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">';

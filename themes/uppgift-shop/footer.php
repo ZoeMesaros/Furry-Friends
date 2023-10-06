@@ -3,6 +3,7 @@
 $header = get_field('footer_header', 'option');
 $content = get_field('footer_content', 'option');
 $linkHeader = get_field('link_header', 'option');
+$icon = get_field('icon', 'option');
 $copyright = get_field('copyright_text', 'option');
 $rows = get_field('links', 'option');
 $opening = get_field('opening', 'option')
@@ -37,7 +38,7 @@ $opening = get_field('opening', 'option')
                         $link = $row['link_1'];
                         $name = $row['link_name'];
                         echo '<li class="mb-1">';
-                        echo '<a href="' . $link . ' " style="color: #4f4f4f;">' . $name . '</a>';
+                        echo '<a href="' . $link . ' " style="color: #4f4f4f;"><i class="' . $icon . '"></i>' . $name . '</a>';
                         echo '</li>';
                     }
                     echo '</ul>';

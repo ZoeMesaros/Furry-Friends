@@ -19,8 +19,8 @@ add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 
 function my_theme_wrapper_start()
 {
-    echo '<section>';
-    echo '<div id="sidebar" class="col-md-4 mt-5" role="complementary">';
+    echo '<section class="mb-5">';
+    echo '<div id="sidebar" class="col-md-2 mt-5" role="complementary">';
     get_sidebar('sidebar-1');
     echo '</div>';
     echo '<div class="content" id="content-products">
@@ -90,8 +90,8 @@ function my_wp_nav_menu_items($items, $args)
 
         // prepend logo
         $html_logo = '<div style="width: 100%"> <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a  class="navbar-brand"> <img class="navbar-img" src="' . $logo . '" alt="Furry Friends Logo">             </a>
+        <div class="container-fluid ms-4 ">
+            <a  class="navbar-brand " > <img class="navbar-img" src="' . $logo . '" alt="Furry Friends Logo">             </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>

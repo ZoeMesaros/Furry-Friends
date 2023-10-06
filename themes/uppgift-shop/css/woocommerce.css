@@ -946,7 +946,7 @@ p.demo_store a {
   border-radius: 5px;
 }
 .woocommerce table.shop_table th {
-  font-weight: 700;
+  font-weight: 550;
   padding: 9px 12px;
   line-height: 1.5em;
 }
@@ -969,7 +969,7 @@ p.demo_store a {
 .woocommerce table.shop_table tbody th,
 .woocommerce table.shop_table tfoot td,
 .woocommerce table.shop_table tfoot th {
-  font-weight: 700;
+  font-weight: 550;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .woocommerce table.my_account_orders {
@@ -1611,7 +1611,7 @@ p.demo_store a {
   text-decoration: none;
   overflow: visible;
   padding: 0.618em 1em;
-  font-weight: 700;
+  font-weight: 550;
   border-radius: 3px;
   left: auto;
   color: #515151;
@@ -2098,7 +2098,7 @@ p.demo_store a {
 .woocommerce-info::before,
 .woocommerce-message::before {
   font-family: WooCommerce;
-  content: "\e028";
+  content: "\1F63B";
   display: inline-block;
   position: absolute;
   top: 1em;
@@ -2129,7 +2129,7 @@ p.demo_store a {
   color: #8fae1b;
 }
 .woocommerce-info {
-  border-top-color: #1e85be;
+  border-top-color: #39be1e;
 }
 .woocommerce-info::before {
   color: #1e85be;

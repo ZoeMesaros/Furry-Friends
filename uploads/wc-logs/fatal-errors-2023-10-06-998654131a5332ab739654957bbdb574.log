@@ -1,0 +1,44 @@
+2023-10-06T10:41:05+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php:40
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php på rad 40
+
+2023-10-06T10:42:51+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php:19
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\page.php(1): get_header()
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php på rad 19
+
+2023-10-06T10:43:42+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php:26
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\page.php(1): get_header()
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php på rad 26
+
+2023-10-06T10:49:08+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php:18
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(785): require_once()
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\front-page.php(8): get_header()
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\header.php på rad 18
+

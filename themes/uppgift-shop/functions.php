@@ -151,7 +151,7 @@ function create_store_post_type() {
         'supports'           => array('title', 'editor', 'thumbnail'),
     );
 
-    register_post_type('store', $args);
+    register_post_type('stores', $args); 
 }
 
 add_action('init', 'create_store_post_type');

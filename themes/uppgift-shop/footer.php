@@ -6,7 +6,9 @@ $linkHeader = get_field('link_header', 'option');
 $icon = get_field('icon', 'option');
 $copyright = get_field('copyright_text', 'option');
 $rows = get_field('links', 'option');
-$opening = get_field('opening', 'option')
+$opening = get_field('opening', 'option');
+$storeHeader = get_field('link_title_stores', 'option');
+$storeLink = get_field('link_to_stores', 'option')
     ?>
 
 <footer>
@@ -69,6 +71,15 @@ $opening = get_field('opening', 'option')
                             </tr>
                         </tbody>
                     </table>
+                <?php endif; ?>
+                <?php if ($storeLink): ?>
+                    <a href=" <?php echo $storeLink ?>">
+                    <?php endif; ?>
+                    <?php if ($storeHeader): ?>
+                        <p class="mb-1 text-dark">
+                            <?php echo $storeHeader ?>
+                    </a>
+                    </p>
                 <?php endif; ?>
             </div>
         </div>

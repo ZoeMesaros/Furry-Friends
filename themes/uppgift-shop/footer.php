@@ -1,11 +1,11 @@
 <?php wp_footer(); ?>
 <?php
-$header = get_field('footer_header');
-$content = get_field('footer_content');
-$linkHeader = get_field('link_header');
-$copyright = get_field('copyright_text');
-$rows = get_field('links');
-$opening = get_field('opening')
+$header = get_field('footer_header', 'option');
+$content = get_field('footer_content', 'option');
+$linkHeader = get_field('link_header', 'option');
+$copyright = get_field('copyright_text', 'option');
+$rows = get_field('links', 'option');
+$opening = get_field('opening', 'option')
     ?>
 
 <footer>

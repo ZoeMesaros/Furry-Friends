@@ -19,14 +19,21 @@ add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 
 function my_theme_wrapper_start()
 {
-    echo '<section class="mb-5">';
-    echo '<div id="sidebar" class="col-md-2 mt-5" role="complementary">';
-    get_sidebar('sidebar-1');
-    echo '</div>';
-    echo '<div class="content" id="content-products">
+
+    if (is_product()) {
+        echo '<div class="content" id="content-products">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">';
+    } else {
+        get_sidebar();
+        echo '<div class="content" id="content-products">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-5">';
+    }
+
+
 }
 
 function my_theme_wrapper_end()

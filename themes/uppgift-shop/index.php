@@ -6,6 +6,7 @@ if (have_posts()) :
             'postDescription' => get_field('post_description'),
             'postLink' => get_field('post_link'),
             'postCategory' => get_field('post_category'),
+            'contactTitle' => get_field('contact_page_title'),
         ]);
     endwhile;
 else :

@@ -2,3 +2,5 @@
 
 2023-10-05T03:59:52+00:00 CRITICAL syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php på rad 24
 
+2023-10-05T08:17:06+00:00 CRITICAL Unclosed '{' on line 74 i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\functions.php på rad 158
+

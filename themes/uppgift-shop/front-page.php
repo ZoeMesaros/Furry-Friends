@@ -51,6 +51,44 @@ $sProducts = get_field('sale_products');
     </div>
 </section>
 
+<?php
+$args = array(
+    'post_type'      => 'stores',  
+    'posts_per_page' => -1,
+);
+
+$stores = new WP_Query($args);
+
+if ($stores->have_posts()) :
+    echo '<div class="store-list">';
+    echo '<h3>Butiker och Öppettider</h3>';
+    while ($stores->have_posts()) : $stores->the_post();
+        // Display store information using ACF fields
+        $storeName    = get_field('store_name');
+        $OpenHoursWeek =   get_field('store_hours_weekdays');
+        $OpenHoursWeekends =   get_field('store_hours_weekdays');
+        $storeAddress = get_field('store_address');
+        $storePhone   = get_field('store_phone');
+        $storeEmail   = get_field('store_email');
+
+        // Output store information as needed
+        echo '<div class="store-item">';
+        echo '<p>' . esc_html($storeName) . '</p>';
+        echo '<p>Öppettider Vardagar: ' . esc_html($OpenHoursWeek) . '</p>';
+        echo '<p>Öppettider Helger: ' . esc_html($OpenHoursWeekends) . '</p>';
+        echo '<p>Adress: ' . esc_html($storeAddress) . '</p>';
+        echo '<p>Tel: ' . esc_html($storePhone) . '</p>';
+        echo '<p>E-post: ' . esc_html($storeEmail) . '</p>';
+        echo '</div>';
+    endwhile;
+    echo '</div>';
+    wp_reset_postdata();
+else :
+    echo 'No stores found.';
+endif;
+
+?>
+
 
 
 

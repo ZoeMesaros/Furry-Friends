@@ -61,7 +61,7 @@ $stores = new WP_Query($args);
 
 if ($stores->have_posts()) :
     echo '<div class="container store-list border p-4">';
-    echo '<h3 class="mb-4">Butiker och Öppettider</h3>';
+    echo '<h3 class="mb-4">Butiker & Öppettider</h3>';
     while ($stores->have_posts()) : $stores->the_post();
         // Display store information using ACF fields
         $storeName    = get_field('store_name');
@@ -72,13 +72,13 @@ if ($stores->have_posts()) :
         $storeEmail   = get_field('store_email');
 
         // Output store information as needed
-        echo '<div class="row store-item mb-4 border-bottom pd-3">';
+        echo '<div class="row store-item mb-4 border-bottom pb-3">';
         echo '<div class="col-md-6">';
         echo '<p class="mb-2"><strong>' . esc_html($storeName) . '</strong></p>';
         echo '<p>Vardagar: ' . esc_html($OpenHoursWeek) . '</p>';
         echo '<p>Helger: ' . esc_html($OpenHoursWeekends) . '</p>';
-        echo '</div>';
-        echo '<div class="col-md-4">';
+        echo '</div>'; 
+        echo '<div class="col-md-6">';
         echo '<p>Adress: ' . esc_html($storeAddress) . '</p>';
         echo '<p>Tel: ' . esc_html($storePhone) . '</p>';
         echo '<p>E-post: ' . esc_html($storeEmail) . '</p>';

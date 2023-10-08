@@ -3,11 +3,9 @@ $postImg = $args['postImg'];
 $postDescription = $args['postDescription'];
 $postLink = $args['postLink'];
 $postCategory = $args['postCategory'];
-$contact_title = get_field('contact_page_title', );
 ?>
 
 <?php get_header(); ?>
-
 <div class="container text-start">
     <?php if ($postCategory): ?>
         <div id="category-box" class="mb-3 mt-5">
@@ -41,9 +39,6 @@ $contact_title = get_field('contact_page_title', );
                         <a href="<?php echo esc_url($postLink); ?>" class="btn btn-primary mb-3 mt-5">Köp!</a>
                     <?php endif; ?>
                 </div>
-                 <?php if ($contact_title): ?> 
-                <h1> <?php echo $contact_title ?></h1>
-                <?php endif; ?>
             </section>
         </div>
     </div>

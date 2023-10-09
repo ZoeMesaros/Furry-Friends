@@ -11,7 +11,7 @@ $storeHeader = get_field('link_title_stores', 'option');
 $storeLink = get_field('link_to_stores', 'option')
     ?>
 
-<footer>
+<footer class="fixed-bottom">
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4">

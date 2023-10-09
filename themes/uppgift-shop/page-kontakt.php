@@ -1,5 +1,5 @@
 <?php
-$contactTitle = get_field('contact_title', get_the_ID());
+$contactTitle = get_field('contact_title', 'option');
 ?>
 
 <?php get_header(); ?>
@@ -9,9 +9,7 @@ $contactTitle = get_field('contact_title', get_the_ID());
         <h1><?php echo esc_html($contactTitle); ?></h1>
     <?php endif; ?>
 
-    <?php
-    echo do_shortcode('[contact-form-7 id="ac0e918" title="Contact form 1"]');
-    ?>
+    <?php echo do_shortcode('[contact-form-7 id="ac0e918" title="Contact form 1"]'); ?>
 
     <?php
     $args = array(
@@ -22,7 +20,7 @@ $contactTitle = get_field('contact_title', get_the_ID());
     $stores = get_posts($args);
 
     if ($stores) :
-        echo '<div class="container store-list border p-4">';
+        echo '<div class="container store-list border p-4 mt-5">';
         echo '<h3 class="mb-4">Butiker & Öppettider</h3>';
         foreach ($stores as $store) {
             $storeName         = get_field('store_name', $store->ID);

@@ -89,7 +89,7 @@ $storeLink = get_field('link_to_stores', 'option')
             <?php echo $copyright ?>
         </div>
     <?php endif; ?>
-
+<script src="./js/script.js"></script>
 </footer>
 </body>
 

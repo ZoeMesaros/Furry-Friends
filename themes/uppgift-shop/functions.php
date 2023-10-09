@@ -36,6 +36,7 @@ function my_theme_wrapper_start()
 
 }
 
+
 function my_theme_wrapper_end()
 {
     echo '</div>
@@ -57,7 +58,12 @@ function wp_enqueue_woocommerce_style()
 }
 add_action('wp_enqueue_scripts', 'wp_enqueue_woocommerce_style');
 
-
+function mytheme_enqueue_scripts() {
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('script', get_template_directory_uri() . './js/footer-script.js', array('jquery'), '1.1', true);
+    wp_enqueue_style('custom-style', get_template_directory_uri() . '/style.css');
+}
+add_action('wp_enqueue_scripts', 'mytheme_enqueue_scripts');
 
 //Register JS
 wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), 1.1, true);

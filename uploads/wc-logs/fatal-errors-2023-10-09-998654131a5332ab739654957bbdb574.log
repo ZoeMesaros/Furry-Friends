@@ -1,0 +1,2 @@
+2023-10-09T08:42:39+00:00 CRITICAL Cannot redeclare mytheme_custom_footer_styles() (previously declared in C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\functions.php:45) i C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\functions.php på rad 50
+

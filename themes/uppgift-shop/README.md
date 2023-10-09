@@ -22,44 +22,44 @@ The theme settings can be found under **`Theme Settings`** in the WordPress dash
 ## Widgets and Sidebars
 
 **Primary Sidebar:**
-\_ A widget-ready sidebar that can be customized using WordPress widgets.
+A widget-ready sidebar that can be customized using WordPress widgets.
 
 ## Menus
 
 **Header Menu:**
-\_ The theme supports a customizable header menu named 'top-menu.'
+The theme supports a customizable header menu named 'top-menu.'
 
 ## Custom Post Type - Stores
 
 **Butiker (Stores):**
-\_ Adds a custom post type for managing and displaying store information.
-\_ Accessible under 'Butiker' in the WordPress dashboard.
+Adds a custom post type for managing and displaying store information.
+Accessible under 'Butiker' in the WordPress dashboard.
 
 # Page Templates
 
 ## Front Page:
 
-\_ Customize the front page with hero images, latest and sale products, and store information.
+Customize the front page with hero images, latest and sale products, and store information.
 
 ## Content Post:
 
-\_ Use this template for individual posts with customizable elements such as images, descriptions, and links.
+Use this template for individual posts with customizable elements such as images, descriptions, and links.
 
 ## Contact Page:
 
-\_ Create a contact page with a contact form and display store information.
+Create a contact page with a contact form and display store information.
 
-## Contact Form:
+- Contact Form:
 
-\_ The contact form is integrated using Contact Form 7.
-\_ Configure the contact form under **`Contact > Contact Forms`** in the WordPress dashboard.
+1.  The contact form is integrated using Contact Form 7.
+2.  Configure the contact form under **`Contact > Contact Forms`** in the WordPress dashboard.
 
 ## Searchbar:
 
-\_ The search bar is included on pages except for product pages.
-\_ Customize the sidebar by adding widgets under **Appearance > Widgets.**
+The search bar is included on pages except for product pages.
+Customize the sidebar by adding widgets under **Appearance > Widgets.**
 
 ## Footer:
 
-\_ The footer is customizable under Footer in the WordPress dashboard.
-\_ Edit footer content, links, and opening hours.
+The footer is customizable under Footer in the WordPress dashboard.
+Edit footer content, links, and opening hours.

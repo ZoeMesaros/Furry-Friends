@@ -57,40 +57,41 @@ $args = array(
     'posts_per_page' => -1,
 );
 
-$stores = new WP_Query($args);
+$stores = get_posts($args);
 
-if ($stores->have_posts()) :
-    echo '<div class="container store-list border p-4">';
-    echo '<h3 class="mb-4">Butiker & Öppettider</h3>';
-    while ($stores->have_posts()) : $stores->the_post();
-        // Display store information using ACF fields
-        $storeName    = get_field('store_name');
-        $OpenHoursWeek =   get_field('store_hours_weekdays');
-        $OpenHoursWeekends =   get_field('store_hours_weekdays');
-        $storeAddress = get_field('store_address');
-        $storePhone   = get_field('store_phone');
-        $storeEmail   = get_field('store_email');
+    if ($stores) :
+        echo '<div class="container store-list border p-4">';
+        echo '<h3 class="mb-4">Butiker & Öppettider</h3>';
+        foreach ($stores as $store) {
+            $storeName         = get_field('store_name', $store->ID);
+            $OpenHoursWeek     = get_field('store_hours_weekdays', $store->ID);
+            $OpenHoursWeekends = get_field('store_hours_weekends', $store->ID);
+            $storeAddress      = get_field('store_address', $store->ID);
+            $storePhone        = get_field('store_phone', $store->ID);
+            $storeEmail        = get_field('store_email', $store->ID);
 
-        // Output store information as needed
-        echo '<div class="row store-item mb-4 border-bottom pb-3">';
-        echo '<div class="col-md-6">';
-        echo '<p class="mb-2"><strong>' . esc_html($storeName) . '</strong></p>';
-        echo '<p>Vardagar: ' . esc_html($OpenHoursWeek) . '</p>';
-        echo '<p>Helger: ' . esc_html($OpenHoursWeekends) . '</p>';
-        echo '</div>'; 
-        echo '<div class="col-md-6">';
-        echo '<p>Adress: ' . esc_html($storeAddress) . '</p>';
-        echo '<p>Tel: ' . esc_html($storePhone) . '</p>';
-        echo '<p>E-post: ' . esc_html($storeEmail) . '</p>';
+            // Output store information as needed
+            echo '<div class="row store-item mb-4 border-bottom pb-3">';
+            echo '<div class="col-md-6">';
+            echo '<p class="mb-2"><strong>' . esc_html($storeName) . '</strong></p>';
+            if ($OpenHoursWeek) {
+                echo '<p>Vardagar: ' . esc_html($OpenHoursWeek) . '</p>';
+            }
+            if ($OpenHoursWeekends) {
+                echo '<p>Helger: ' . esc_html($OpenHoursWeekends) . '</p>';
+            }
+            echo '</div>'; 
+            echo '<div class="col-md-6">';
+            echo '<p>Adress: ' . esc_html($storeAddress) . '</p>';
+            echo '<p>Tel: ' . esc_html($storePhone) . '</p>';
+            echo '<p>E-post: ' . esc_html($storeEmail) . '</p>';
+            echo '</div>';
+            echo '</div>';
+        }
         echo '</div>';
-        echo '</div>';
-    endwhile;
-    echo '</div>';
-    wp_reset_postdata();
-else :
-    echo '<div class="container"><p class="alert alert-warning">No stores found.</p></div>';
-endif;
-
+    else :
+        echo '<div class="container"><p class="alert alert-warning">No stores found.</p></div>';
+    endif;
 ?>
 
 

@@ -27,7 +27,7 @@ function my_theme_wrapper_start()
                 <div class="col-12 mt-5">';
     } else {
         get_sidebar();
-        echo '<div class="content" id="content-products">
+        echo '<div class="content" id="content-products-sidebar">
         <div class="container">
             <div class="row">
                 <div class="col-12 mt-5">';

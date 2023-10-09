@@ -10,6 +10,7 @@ $sProducts = get_field('sale_products');
 
 
 <?php if ($heroImage): ?>
+    <div>
     <section class="px-5 py-6 py-xxl-10 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform"
         style="background-image: url('<?php echo esc_url($heroImage); ?>');">
     <?php endif; ?>

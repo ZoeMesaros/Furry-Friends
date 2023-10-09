@@ -91,6 +91,7 @@ $storeLink = get_field('link_to_stores', 'option')
     <?php endif; ?>
 <script src="./js/script.js"></script>
 </footer>
+</div>
 </body>
 
 </html>

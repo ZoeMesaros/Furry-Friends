@@ -49,10 +49,10 @@ Use this template for individual posts with customizable elements such as images
 
 Create a contact page with a contact form and display store information.
 
-- Contact Form:
+## Contact Form:
 
-1.  The contact form is integrated using Contact Form 7.
-2.  Configure the contact form under **`Contact > Contact Forms`** in the WordPress dashboard.
+The contact form is integrated using Contact Form 7.
+Configure the contact form under **`Contact > Contact Forms`** in the WordPress dashboard.
 
 ## Searchbar:
 

@@ -12,3 +12,125 @@ footer {
 footer:hover {
   opacity: 1;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+div#content-products {
+  margin-left: 270px;
+  padding: 1px 16px;
+}
+
+#sidebar {
+  /*   position: -webkit-sticky;
+  position: sticky;
+  top: 100px; */
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 4px solid #5ebbc8;
+  margin: 15px;
+  position: absolute;
+  padding-left: 2rem;
+  padding-top: 3rem;
+  width: 250px;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    flex-direction: row;
+  }
+  .menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #navbar-login {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #sidebar {
+    background-color: #b0e0e6;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  #sidebar a {
+    float: left;
+    height: auto;
+  }
+  div#content-products {
+    margin-left: 0;
+  }
+}
+
+.menu-navigeringsmeny-container {
+  width: 100%;
+}
+
+.menu li {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.menu li a {
+  all: unset;
+}
+
+.menu li a:hover {
+  cursor: pointer;
+}
+
+#navbar-login a {
+  all: unset;
+}
+
+#navbar-login a:hover {
+  cursor: pointer;
+}
+
+.titleText {
+  width: 40%;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  color: white;
+}
+
+#hero {
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #hero {
+    height: 550px;
+    width: 100%;
+  }
+}
+
+.navbar-img {
+  height: 90px !important;
+}
+
+footer {
+  background-color: #b0e0e6;
+}
+
+#sidebar-filter {
+  width: 85%;
+}

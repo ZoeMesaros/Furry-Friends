@@ -169,7 +169,7 @@ p.demo_store a {
 }
 .woocommerce div.product p.price,
 .woocommerce div.product span.price {
-  color: #b3af54;
+  color: #000000;
   font-size: 1.25em;
 }
 .woocommerce div.product p.price ins,
@@ -529,21 +529,20 @@ p.demo_store a {
   transform: scale(1.5, 1.5);
 }
 .woocommerce span.onsale {
-  min-height: 3.236em;
-  min-width: 3.236em;
-  padding: 0.202em;
+  height: 2.5em;
+  width: 2.5em;
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 550;
   position: absolute;
   text-align: center;
-  line-height: 3.236;
+  line-height: 2.8;
   top: -0.5em;
   left: -0.5em;
   margin: 0;
-  border-radius: 100%;
-  background-color: #b3af54;
+  border-radius: 50%;
+  background-color: #d91b1b;
   color: #fff;
-  font-size: 0.857em;
+  font-size: 1em;
   z-index: 9;
 }
 .woocommerce .products ul,
@@ -605,11 +604,11 @@ p.demo_store a {
   margin-top: 1em;
 }
 .woocommerce ul.products li.product .price {
-  color: #b3af54;
+  color: #000000;
   display: block;
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 0.5em;
-  font-size: 0.857em;
+  font-size: 1em;
 }
 .woocommerce ul.products li.product .price del {
   color: inherit;
@@ -644,12 +643,13 @@ p.demo_store a {
   white-space: nowrap;
   padding: 0;
   clear: both;
-  border: 1px solid #cfc8d8;
+  border: 1px solid black;
   border-right: 0;
   margin: 1px;
+  border-radius: 5px;
 }
 .woocommerce nav.woocommerce-pagination ul li {
-  border-right: 1px solid #cfc8d8;
+  border-right: 1px solid #5ebbc8;
   padding: 0;
   margin: 0;
   float: left;
@@ -671,8 +671,8 @@ p.demo_store a {
 .woocommerce nav.woocommerce-pagination ul li a:focus,
 .woocommerce nav.woocommerce-pagination ul li a:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current {
-  background: #e9e6ed;
-  color: #816e99;
+  background: #5ebbc8;
+  color: #ffffff;
 }
 .woocommerce .cart .button,
 .woocommerce .cart input.button {
@@ -1614,8 +1614,8 @@ p.demo_store a {
   font-weight: 550;
   border-radius: 3px;
   left: auto;
-  color: #515151;
-  background-color: #e9e6ed;
+  color: #ffffff;
+  background-color: #5ebbc8;
   border: 0;
   display: inline-block;
   background-image: none;
@@ -1727,10 +1727,10 @@ p.demo_store a {
 :where(body:not(.woocommerce-block-theme-has-button-styles))
   .woocommerce
   input.button:hover {
-  background-color: #dcd7e3;
+  background-color: #b0e0e6;
   text-decoration: none;
   background-image: none;
-  color: #515151;
+  color: #2c848f;
 }
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles))
   #respond

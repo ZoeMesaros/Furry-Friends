@@ -58,7 +58,8 @@ function wp_enqueue_woocommerce_style()
 }
 add_action('wp_enqueue_scripts', 'wp_enqueue_woocommerce_style');
 
-function mytheme_enqueue_scripts() {
+function mytheme_enqueue_scripts()
+{
     wp_enqueue_script('jquery');
     wp_enqueue_script('script', get_template_directory_uri() . './js/footer-script.js', array('jquery'), '1.1', true);
     wp_enqueue_style('custom-style', get_template_directory_uri() . '/style.css');
@@ -177,40 +178,41 @@ if (function_exists('acf_add_options_page')) {
 
 }
 
-    // Skapa en anpassad posttyp för butiker
-function create_store_post_type() {
+// Skapa en anpassad posttyp för butiker
+function create_store_post_type()
+{
     $labels = array(
-        'name'               => 'Butiker',
-        'singular_name'      => 'Butik',
-        'menu_name'          => 'Butiker',
-        'name_admin_bar'     => 'Butiker',
-        'add_new'            => 'Lägg till ny',
-        'add_new_item'       => 'Lägg till ny butik',
-        'new_item'           => 'Ny butik',
-        'edit_item'          => 'Redigera butik',
-        'view_item'          => 'Visa butik',
-        'all_items'          => 'Alla butiker',
-        'search_items'       => 'Sök bland butiker',
-        'not_found'          => 'Inga butiker hittades',
+        'name' => 'Butiker',
+        'singular_name' => 'Butik',
+        'menu_name' => 'Butiker',
+        'name_admin_bar' => 'Butiker',
+        'add_new' => 'Lägg till ny',
+        'add_new_item' => 'Lägg till ny butik',
+        'new_item' => 'Ny butik',
+        'edit_item' => 'Redigera butik',
+        'view_item' => 'Visa butik',
+        'all_items' => 'Alla butiker',
+        'search_items' => 'Sök bland butiker',
+        'not_found' => 'Inga butiker hittades',
         'not_found_in_trash' => 'Inga butiker hittades i papperskorgen',
     );
 
     $args = array(
-        'labels'             => $labels,
-        'public'             => true,
+        'labels' => $labels,
+        'public' => true,
         'publicly_queryable' => true,
-        'show_ui'            => true,
-        'show_in_menu'       => true,
-        'query_var'          => true,
-        'rewrite'            => array('slug' => 'butiker'),
-        'capability_type'    => 'post',
-        'has_archive'        => true,
-        'hierarchical'       => false,
-        'menu_position'      => null,
-        'supports'           => array('title', 'editor', 'thumbnail'),
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'query_var' => true,
+        'rewrite' => array('slug' => 'butiker'),
+        'capability_type' => 'post',
+        'has_archive' => true,
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title', 'editor', 'thumbnail'),
     );
 
-    register_post_type('stores', $args); 
+    register_post_type('stores', $args);
 }
 
 add_action('init', 'create_store_post_type');

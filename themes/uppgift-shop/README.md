@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
-1. Introduction
-2. Installation
-3. Theme Settings
-4. Widgets and Sidebars
-5. Menues
-6. Custom Post Type - Stores
-7. Page Templates
-   - Front Page
-   - News Post
-   - Contact Page
-   - Contact Form
-   - Searchbar
-   - Footer
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Theme Settings](#theme-settings)
+4. [Widgets and Sidebars](#widgets-and-sidebars)
+5. [Menus](#menus)
+6. [Custom Post Type - Stores](#custom-post-type-stores)
+7. [Page Templates](#page-templates)
+   - [Front Page](#front-page)
+   - [News Post](#news-post)
+   - [Contact Page](#contact-page)
+   - [Contact Form](#contact-form)
+   - [Searchbar](#searchbar)
+   - [Footer](#footer)
 
 ## <a name="introduction">Introduction</a>
 

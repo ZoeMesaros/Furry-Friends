@@ -38,8 +38,8 @@ function my_theme_wrapper_start()
                     </div>
                 </div>
             </div>
-            <div class="row collapsible">
-                <div class="col-10" id="products-section">
+            <div class="row" id="products-section">
+                <div class="col-10">
     
                     <div class="content-section p-5 m-5">';
     }

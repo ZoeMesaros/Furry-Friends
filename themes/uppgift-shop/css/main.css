@@ -40,24 +40,6 @@ footer:hover {
   }
 }
 
-@media screen and (max-width: 700px) {
-  #sidebar {
-    vertical-align: top;
-    display: table-cell;
-    border: 3px solid #5ebbc8;
-    width: 100%;
-    margin-bottom: 25%;
-    height: auto;
-    position: absolute;
-  }
-  #products-section {
-    margin-top: 40%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-}
-
 .menu-navigeringsmeny-container {
   width: 100%;
 }
@@ -124,7 +106,6 @@ footer {
 }
 
 .sidebar-item {
-  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
@@ -134,7 +115,7 @@ footer {
 .make-me-sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 15%;
+  top: 5%;
 
   padding: 0 15px;
 }
@@ -167,4 +148,24 @@ article {
 
 .sidebar-item {
   text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .title-section {
+    border: none;
+  }
+  #sidebar {
+    vertical-align: top;
+    display: table-cell;
+    border-bottom: 3px solid #5ebbc8;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+  }
+  .content-section {
+    margin-top: 300px !important;
+    width: 100%;
+    padding: 0 !important;
+    min-height: 40%;
+  }
 }

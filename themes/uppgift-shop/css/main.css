@@ -12,3 +12,160 @@ footer {
 footer:hover {
   opacity: 1;
 }
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+@media (min-width: 700px) {
+  .menu {
+    flex-direction: row;
+  }
+  .menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #navbar-login {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+.menu-navigeringsmeny-container {
+  width: 100%;
+}
+
+.menu li {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.menu li a {
+  all: unset;
+}
+
+.menu li a:hover {
+  cursor: pointer;
+}
+
+#navbar-login a {
+  all: unset;
+}
+
+#navbar-login a:hover {
+  cursor: pointer;
+}
+
+.titleText {
+  width: 40%;
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  color: white;
+}
+
+#hero {
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #hero {
+    height: 550px;
+    width: 100%;
+  }
+}
+
+.navbar-img {
+  height: 90px !important;
+}
+
+footer {
+  background-color: #b0e0e6;
+}
+
+.content-section {
+  min-height: 2000px;
+}
+.sidebar-section {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar-item {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.make-me-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5%;
+
+  padding: 0 15px;
+}
+
+article {
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 25px 0 600px;
+}
+
+.title-section,
+.content-section,
+.sidebar-section {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.title-section {
+  text-align: center;
+  padding: 50px 15px;
+  border-bottom: 3px solid #5ebbc8;
+  border-radius: 0;
+}
+
+.content-section h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 200px;
+}
+
+.sidebar-item {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .title-section {
+    border: none;
+  }
+  #sidebar {
+    vertical-align: top;
+    display: table-cell;
+    border-bottom: 3px solid #5ebbc8;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+  }
+  .content-section {
+    margin-top: 300px !important;
+    width: 100%;
+    padding: 0 !important;
+    min-height: 40%;
+  }
+}

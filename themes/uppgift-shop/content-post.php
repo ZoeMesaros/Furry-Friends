@@ -5,7 +5,6 @@ $postLink = $args['postLink'];
 $postCategory = $args['postCategory'];
 ?>
 
-<?php get_header(); ?>
 <div class="container text-start">
     <?php if ($postCategory): ?>
         <div id="category-box" class="mb-3 mt-5">
@@ -43,4 +42,3 @@ $postCategory = $args['postCategory'];
         </div>
     </div>
 </div>
-<?php get_footer(); ?>

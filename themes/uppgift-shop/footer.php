@@ -11,7 +11,7 @@ $storeHeader = get_field('link_title_stores', 'option');
 $storeLink = get_field('link_to_stores', 'option')
     ?>
 
-<footer class="fixed-bottom">
+<footer>
     <div class="container p-4">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4">
@@ -89,7 +89,7 @@ $storeLink = get_field('link_to_stores', 'option')
             <?php echo $copyright ?>
         </div>
     <?php endif; ?>
-<script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
 </footer>
 </div>
 </body>

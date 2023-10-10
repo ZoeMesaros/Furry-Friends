@@ -1,17 +1,17 @@
 /* Initially hide the footer */
-body {
+/* body {
   margin-bottom: 40vh;
 }
 
 footer {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
+} */
 
 /* Show the footer when hovered */
-footer:hover {
+/* footer:hover {
   opacity: 1;
-}
+} */
 
 .menu {
   display: flex;

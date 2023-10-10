@@ -17,6 +17,7 @@ remove_action('woocommerce_after_main_content', 'woocommerce_output_content_wrap
 add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
 add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
 
+
 function my_theme_wrapper_start()
 {
 
@@ -26,11 +27,21 @@ function my_theme_wrapper_start()
             <div class="row">
                 <div class="col-12 mt-5">';
     } else {
-        get_sidebar();
-        echo '<div class="content" id="content-products-sidebar">
-        <div class="container">
+        echo '
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 mt-5">';
+                <div class="col">
+                    <div class="title-section">
+                        <h1>
+        Våra produkter';
+        echo '</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row collapsible">
+                <div class="col-10" id="products-section">
+    
+                    <div class="content-section p-5 m-5">';
     }
 
 
@@ -39,11 +50,28 @@ function my_theme_wrapper_start()
 
 function my_theme_wrapper_end()
 {
-    echo '</div>
+
+    if (is_product()) {
+        echo '</div>
     </div>
 </div>
 </div>
 </section>';
+    } else {
+        echo '</div>
+        </div>
+        <div class=" col-md-2 pt-5 " id="sidebar">
+          <div class="sidebar-item ">
+            <div class="make-me-sticky">';
+        get_sidebar();
+        echo '</div>
+          </div>
+        </div>
+    </div>
+</div>
+';
+    }
+
 }
 
 
@@ -216,3 +244,12 @@ function create_store_post_type()
 }
 
 add_action('init', 'create_store_post_type');
+
+add_filter('woocommerce_show_page_title', 'bbloomer_hide_shop_page_title');
+
+function bbloomer_hide_shop_page_title($title)
+{
+    if (is_shop())
+        $title = false;
+    return $title;
+}

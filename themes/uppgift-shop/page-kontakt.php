@@ -6,7 +6,7 @@ $contactTitle = get_field('contact_title');
 <?php if ($contactTitle): ?> 
         <h1 style="text-align: center; margin: 6%;"><?php echo esc_html($contactTitle); ?></h1>
     <?php endif; ?>
-<section class="contact-section" style="display: flex; margin: 10%;">
+<section class="contact-section" style="display: flex; margin: 8%;">
 
     <div style="width: 40%; margin-left: 5%"> 
         <?php echo do_shortcode('[contact-form-7 id="ac0e918" title="Contact form 1"]'); ?>

@@ -7,24 +7,6 @@
   list-style: none;
 }
 
-@media (min-width: 700px) {
-  .menu {
-    flex-direction: row;
-  }
-  .menu li {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  #navbar-login {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  #searchbar {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
 .menu-navigeringsmeny-container {
   width: 100%;
 }
@@ -61,24 +43,13 @@
   color: white;
 }
 
-#hero {
-  position: relative;
-  text-align: center;
-}
-
-@media (min-width: 992px) {
-  #hero {
-    height: 550px;
-    width: 100%;
-  }
-}
-
 .navbar-img {
   height: 90px !important;
 }
 
-footer {
-  background-color: #b0e0e6;
+#hero {
+  position: relative;
+  text-align: center;
 }
 
 .content-section {
@@ -121,7 +92,7 @@ article {
 .title-section {
   text-align: center;
   padding: 50px 15px;
-  border-bottom: 3px solid #5ebbc8;
+  border-bottom: 5px solid #5ebbc8;
   border-radius: 0;
 }
 
@@ -135,6 +106,54 @@ article {
   text-align: center;
 }
 
+#contact {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15%;
+}
+
+#stores {
+  width: 100%;
+  margin-right: 5%;
+}
+
+@media (min-width: 700px) {
+  #stores {
+    width: 40%;
+    margin-right: 5%;
+  }
+  #contact {
+    width: 40%;
+    margin-left: 5%;
+  }
+  .menu {
+    flex-direction: row;
+  }
+  .menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #navbar-login {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  #searchbar {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #hero {
+    height: 550px;
+    width: 100%;
+  }
+}
+
+.make-me-sticky {
+  border: 5px solid #5ebbc8;
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 10px;
+}
+
 @media screen and (max-width: 700px) {
   .title-section {
     border: none;
@@ -142,7 +161,6 @@ article {
   #sidebar {
     vertical-align: top;
     display: table-cell;
-    border-bottom: 3px solid #5ebbc8;
     width: 100%;
     position: absolute;
     background-color: white;
@@ -153,15 +171,16 @@ article {
     padding: 0 !important;
     min-height: 40%;
   }
+  .contact-section {
+    flex-direction: column;
+  }
+}
+
+footer {
+  background-color: #b0e0e6;
 }
 
 .contact-section {
   display: flex;
   margin: 10%;
-}
-
-@media screen and (max-width: 700px) {
-  .contact-section {
-    flex-direction: column;
-  }
 }

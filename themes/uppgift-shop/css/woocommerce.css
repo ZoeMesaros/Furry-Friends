@@ -2129,6 +2129,7 @@ p.demo_store a {
   color: #8fae1b;
 }
 .woocommerce-info {
+  background-color: #b1e3e8;
   border-top-color: #39be1e;
 }
 .woocommerce-info::before {

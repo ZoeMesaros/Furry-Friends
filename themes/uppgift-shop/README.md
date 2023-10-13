@@ -3,80 +3,127 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Theme Settings](#theme-settings)
-4. [Widgets and Sidebars](#widgets-and-sidebars)
-5. [Menus](#menus)
-6. [Custom Post Type - Stores](#custom-post-type-stores)
-7. [Page Templates](#page-templates)
-   - [Front Page](#front-page)
-   - [News Post](#news-post)
-   - [Contact Page](#contact-page)
-   - [Contact Form](#contact-form)
-   - [Searchbar](#searchbar)
-   - [Footer](#footer)
+2. [Login & User Rolse](#login&userRoles)
+3. [Products](#products)
+4. [Categories](#categories)
+5. [Store Management](#storeManagement)
+6. [Order Management](#orderManagement)
+7. [Sales & Reports](#Sales&Reports)
+8. [Campaigns](#campaigns)
+9. [System Administration](#systemAdministration)
+10. [Contact Information](#contactInformation)
 
 ## <a name="introduction">Introduction</a>
 
 Hey there, pet enthusiasts! 🐶🐱 Thank you for choosing the Furry Friends WordPress Theme. We've designed this theme with a paw-some blend of functionality and charm to make your pet-related website stand out.
 
-## <a name="installation">Installation</a>
+## <a name="login&userRoles">Login & User Roles</a>
 
-1. 📥 Download the theme zip file.
-2. 🖥️ Log in to your WordPress admin dashboard.
-3. 🚀 Navigate to **Appearance > Themes.**
-4. ➕ Click on "Add New" and then "Upload Theme."
-5. 📂 Choose the theme zip file and click "Install Now."
-6. 🌈 Activate the theme.
+### Login
 
-## <a name="theme-settings">Theme Settings</a>
+To log in to the web store's administration panel, visit furryfriends/wordpress/wp-admin and enter your login credential
 
-The theme settings can be found under **`Theme Settings`** in the WordPress dashboard. Here, you can customize general and footer-related setting.
+### User Roles
 
-## <a name="widgets-and-sidebars">Widgets and Sidebars</a>
+1. 🖥️ Log in to your WordPress admin dashboard.
+2. 🚀 Navigate to **to "Users" in the sidebar.**
+3. ➕ Choose "Add New User."
+4. 📂 Fill in the necessary information and select the desired role from the dropdown.
+5. 👤 Click "Add User."
 
-**Primary Sidebar:**
-A widget-ready🎉 sidebar that can be customized using WordPress widgets.
+## <a name="products">Products</a>
 
-## <a name="menus">Menus</a>
+### Add and edit products:
 
-**Header Menu:**
-The theme supports a customizable header menu named 'top-menu.'
+1. Log in to the administration panel.
+2. Go to "Products" in the sidebar.
+3. Choose "Add New" to create a new product or click on an existing product for editing.
 
-## <a name="custom-post-type-stores">Custom Post Type - Stores</a>
+### Change Prices, Including Sale Prices
 
-**Butiker 🏠 (Stores):**
-Adds a custom post type for managing and displaying store information.
-Accessible under 'Butiker' in the WordPress dashboard.
+1. Go to "Products" in the sidebar.
+2. Select the product you want to edit.
+3. Change the regular and, if applicable, sale prices under product information.
+4. Click "Update" to save changes.
 
-# <a name="page-templates">Page Templates</a>
+### Upload Product Images
 
-## <a name="front-page">Front Page:</a>
+1. Go to "Products" in the sidebar.
+2. Select the product you want to edit or create a new one.
+3. Click on "Product Image" and upload your desired images.
+4. Follow guidelines for image format and file size.
 
-Customize the front page with hero images, the latest and greatest products, and a touch of store magic.
+## <a name="categories">Categories</a>
 
-## <a name="news-page">News Post:</a>
+### Add and Edit Categories
 
-Use this template for individual posts with customizable elements such as images, descriptions, and links.
+1. Go to "Products" in the sidebar.
+2. Click on "Categories."
+3. Add a new category or edit existing ones.
+   Save changes.
 
-## <a name="contact-page">Contact Page:</a>
+## <a name="storeManagement">Store Management</a>
 
-Create a contact page with a contact form and display store information.
+### Create and Edit a Store
 
-## <a name="contact-form">Contact Form:</a>
+1. Go to "Stores" in the sidebar.
+2. Add a new store or edit existing ones.
+3. Enter information such as store name, opening hours, address, phone, picture and email.
+   Save changes.
 
-The contact form is integrated using Contact Form 7.
-Configure the contact form under **`Contact > Contact Forms`** in the WordPress dashboard.
+## <a name="orderManagement">Order Management</a>
 
-## <a name="searchbar">Searchbar:</a>
+### Brief Description of Order Management
 
-The search bar is included on the product page.
-Customize the sidebar by adding widgets under **Appearance > Widgets.**
+Order management is handled by going to "Orders" in the sidebar. Here, you can view, manage, and mark orders as completed.
 
-## <a name="footer">Footer:</a>
+### Sales & Reports
 
-The final touch!🎉 Customize the footer under 'Footer' in the WordPress dashboard. Edit footer content, links, and opening hours.
+### Understanding Sales Per Day and Month
+
+The company can gain insight into sales per day and month by navigating to "Reports" in the sidebar.
+
+### Best-Selling Categories
+
+Best-selling categories can be viewed in sales reports under "Reports" in the sidebar.
+
+### Best-Selling Products
+
+Information on best-selling products is available in sales reports under "Reports" in the sidebar.
+
+## <a name="campaigns">Campaigns</a>
+
+### Create Campaigns
+
+1. Go to "Campaigns" in the sidebar.
+2. Choose "Add New Campaign."
+3. Enter campaign details and conditions.
+4. Save the campaign.
+
+### Limiting Campaigns by Time
+
+Specify a start date and end date when creating a campaign to limit its duration.
 
 ## Using Coupon Code `rabatt10`
 
 Enjoy a special discount by using the coupon code `rabatt10` during the checkout process. Apply the code in the designated field to get the discount on your purchase. Happy savings!
+
+## <a name="systemAdministration">System Administration</a>
+
+### Updates
+
+Updating WordPress and WooCommerce
+
+To update WordPress and WooCommerce:
+
+1. Log in to the administration panel.
+2. Go to "Dashboard."
+3. Click on "Updates."
+4. Update WordPress and WooCommerce to the latest versions.
+5. Remember to back up your website before major updates.
+
+## <a name="contactInformation">Contact Information</a>
+
+For questions and assistance, contact our web agency through the following channels:
+
+- Email: support@your-website.com

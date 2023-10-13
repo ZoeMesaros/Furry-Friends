@@ -1,0 +1,154 @@
+2023-10-13T07:37:20+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(38): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:37:29+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(38): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:54:49+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(41): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\single.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:54:53+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(41): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:54:57+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(41): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\single.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:56:33+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(41): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:56:43+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(41): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:56:51+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(41): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:57:10+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(41): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:58:43+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(38): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+
+2023-10-13T07:58:52+00:00 CRITICAL Uncaught TypeError: ltrim(): Argument #1 ($string) must be of type string, array given in C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php:4477
+Stack trace:
+#0 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php(4477): ltrim(Array)
+#1 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\content-post.php(38): esc_url(Array)
+#2 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(787): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template.php(720): load_template('C:\\xampp\\htdocs...', false, Array)
+#4 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\general-template.php(206): locate_template(Array, true, false, Array)
+#5 C:\xampp\htdocs\furryfriends\wordpress\wp-content\themes\uppgift-shop\index.php(11): get_template_part('content', 'post', Array)
+#6 C:\xampp\htdocs\furryfriends\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\furryfriends\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\furryfriends\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown i C:\xampp\htdocs\furryfriends\wordpress\wp-includes\formatting.php på rad 4477
+

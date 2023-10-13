@@ -76,3 +76,7 @@ Customize the sidebar by adding widgets under **Appearance > Widgets.**
 ## <a name="footer">Footer:</a>
 
 The final touch!🎉 Customize the footer under 'Footer' in the WordPress dashboard. Edit footer content, links, and opening hours.
+
+## Using Coupon Code `rabatt10`
+
+Enjoy a special discount by using the coupon code `rabatt10` during the checkout process. Apply the code in the designated field to get the discount on your purchase. Happy savings!

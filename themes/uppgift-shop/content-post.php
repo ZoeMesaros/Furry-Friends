@@ -1,8 +1,8 @@
 <?php
 $postImg = $args['postImg'];
 $postDescription = $args['postDescription'];
-$postLink = $args['postLink'];
 $postCategory = $args['postCategory'];
+
 ?>
 
 <div class="container text-start">
@@ -33,10 +33,9 @@ $postCategory = $args['postCategory'];
                             <?php echo $postDescription ?>
                         </p>
                     <?php endif; ?>
-
-                    <?php if ($postLink): ?>
-                        <a href="<?php echo esc_url($postLink); ?>" class="btn btn-primary mb-3 mt-5">Köp!</a>
-                    <?php endif; ?>
+                       <?php if (!is_single()): ?>
+                        <a href="<?php echo esc_url(get_permalink()); ?>" class="btn btn-primary mb-3 mt-3" target="_blank">Läs mer...</a>
+                        <?php endif; ?>
                 </div>
             </section>
         </div>

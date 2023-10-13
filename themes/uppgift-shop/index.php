@@ -11,7 +11,6 @@
                             get_template_part('content', 'post', [
                                 'postImg' => get_field('post_image'),
                                 'postDescription' => get_field('post_description'),
-                                'postLink' => get_field('post_link'),
                                 'postCategory' => get_field('post_category'),
                             ]);
                         endwhile;

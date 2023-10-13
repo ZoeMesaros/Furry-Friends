@@ -7,10 +7,17 @@
                 <div class="col-12 mt-5">
                     <?php if (have_posts()):
                         while (have_posts()):
-                            the_post(); ?>
-
-                            <?php the_content(); ?>
-                        <?php endwhile; else: endif; ?>
+                            the_post();
+                            get_template_part('content', 'post', [
+                                'postImg' => get_field('post_image'),
+                                'postDescription' => get_field('post_description'),
+                                'postCategory' => get_field('post_category'),
+                                'postLink' => get_field('post_link'),
+                            ]);
+                        endwhile;
+                    else:
+                        echo 'No posts found.';
+                    endif; ?>
                 </div>
             </div>
         </div>
